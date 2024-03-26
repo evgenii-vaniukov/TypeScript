@@ -24,7 +24,7 @@ export class ConcreteProductA2 extends AbstractProductA {
   }
 
   public operation(): string {
-    return "A2 version of AbstractProductA";
+    return "A2 version of the AbstractProductA";
   }
 }
 
@@ -41,6 +41,12 @@ export abstract class AbstractProductB {
 
 export class ConcreteProductB1 extends AbstractProductB {
   public operation(): string {
-    return "B1 version of AbstractProductB";
+    return "B1 version of the AbstractProductB";
+  }
+}
+
+export class ConcreteProductB2 extends AbstractProductB {
+  public operation(): string {
+    return "B2 version of the AbstractProductB";
   }
 }
